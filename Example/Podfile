@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EmojiPod_Example' do
+  pod 'EmojiPod', :path => '../'
+
+  target 'EmojiPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
